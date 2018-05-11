@@ -9,6 +9,7 @@
   "scripts": {
     "docs:dev": "vuepress dev docs",
     "docs:build": "vuepress build docs",
+    "deploy:build": "cnpm run docs:build && xcopy /s /e /y dist .",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
