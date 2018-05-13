@@ -4,18 +4,16 @@ module.exports = {
     dest: './dist',    // 设置输出目录
     base: '/', // 设置站点根路径
     themeConfig: {
-        repo: 'https://github.com/xwjie' ,
+        repo: 'https://github.com/xurong/xurong.github.io' ,
         nav: [
             { text: '首页', link: '/' },
-            { text: '编程规范', link: '/rule/' },
-            { text: 'Ajax跨域详解', link: '/ajax/' },
-            { text: 'WebFlux', link: '/webflux/' },
-            { text: 'Vue', link: 'https://github.com/xwjie/VueStudyNote' },
+            { text: '编程规范', link: '/foo/' },
+            { text: '数据结构', link: '/bar/' }
         ],
-        sidebar:  {
-            '/rule/': [{
+        sidebar: {
+            '/foo/': [{
                 title: '程序员你为什么这么累',
-                collapsable: false,
+                collapsable: true,
                 children: [
                     '',
                     'rest-defined',
@@ -32,12 +30,12 @@ module.exports = {
                 ]
             }],
             '/ajax/': [{
-                //title: 'Ajax跨越安全详解',
-                collapsable: false,
+                title: 'Ajax跨越安全详解',
+                collapsable: true,
                 children: [
                     '',
                 ]
-            }],
+            }]
         }
     }, //themeConfig
 }
