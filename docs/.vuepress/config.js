@@ -10,8 +10,13 @@ module.exports = {
             { text: '算法', link: '/foo/' },
             { text: '数据结构', link: '/bar/' },
             { text: 'POS金融工具', link: 'http://114.67.236.168/#/BitmapViewer' },
-            { text: '兴业银行密钥管理', link: 'http://58.247.43.50:50909' },
-            { text: '兴业银行密钥上送', link: 'http://mtms.cib.cibfintech.com/mtms/' }
+            {
+                text: '兴业银行密钥',
+                items: [
+                    { text: '密钥管理', link: 'http://58.247.43.50:50909' },
+                    { text: '密钥上送', link: 'http://mtms.cib.cibfintech.com/mtms/' }
+                ]
+            }
         ],
         sidebar: {
             '/foo/': [{
