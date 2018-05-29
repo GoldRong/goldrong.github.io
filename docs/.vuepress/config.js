@@ -4,17 +4,27 @@ module.exports = {
     dest: './dist',    // 设置输出目录
     base: '/', // 设置站点根路径
     themeConfig: {
-        repo: 'https://github.com/xurong/xurong.github.io' ,
+        repo: 'https://github.com/xurong/xurong.github.io',
         nav: [
-            { text: '首页', link: '/' },
-            { text: '算法', link: '/foo/' },
-            { text: '数据结构', link: '/bar/' },
-            { text: 'POS金融工具', link: 'http://114.67.236.168/#/BitmapViewer' },
+            {text: '首页', link: '/'},
+            {text: '算法', link: '/foo/'},
+            {text: '数据结构', link: '/bar/'},
+            {
+                text: '先知',
+                items: [
+                    {text: 'Spring', link: 'https://topsale.gitbooks.io/java-cloud-dubbo/content/'},
+                    {text: '纯洁的微笑', link: 'http://www.mooooc.com/'},
+                    {text: 'DocsHome', link: 'https://github.com/DocsHome'},
+                    {text: '后端架构师技术图谱', link: 'https://github.com/xingshaocheng/architect-awesome'},
+                    {text: 'ganecheng', link: 'http://www.ganecheng.tech/'}
+                ]
+            },
+            {text: 'POS金融工具', link: 'http://114.67.236.168/#/BitmapViewer'},
             {
                 text: '兴业银行密钥',
                 items: [
-                    { text: '密钥管理', link: 'http://58.247.43.50:50909' },
-                    { text: '密钥上送', link: 'http://mtms.cib.cibfintech.com/mtms/' }
+                    {text: '密钥管理', link: 'http://58.247.43.50:50909'},
+                    {text: '密钥上送', link: 'http://mtms.cib.cibfintech.com/mtms/'}
                 ]
             }
         ],
