@@ -1,5 +1,5 @@
 module.exports = {
-    title: '知识树',
+    title: 'Knowledge Tree',
     description: '把代码写复杂很容易，把代码写简单很难，这里讲的是如何编写简单易读的代码',
     dest: './dist',    // 设置输出目录
     base: '/', // 设置站点根路径
@@ -9,8 +9,9 @@ module.exports = {
             {text: '首页', link: '/'},
             {text: '算法', link: '/foo/'},
             {text: '数据结构', link: '/bar/'},
+            {text: 'POS金融工具', link: 'http://114.67.236.168/#/BitmapViewer'},
             {
-                text: '先知',
+                text: '优秀博客',
                 items: [
                     {text: 'Spring', link: 'https://topsale.gitbooks.io/java-cloud-dubbo/content/'},
                     {text: '纯洁的微笑', link: 'http://www.mooooc.com/'},
@@ -19,7 +20,6 @@ module.exports = {
                     {text: 'ganecheng', link: 'http://www.ganecheng.tech/'}
                 ]
             },
-            {text: 'POS金融工具', link: 'http://114.67.236.168/#/BitmapViewer'},
             {
                 text: '兴业银行密钥',
                 items: [
