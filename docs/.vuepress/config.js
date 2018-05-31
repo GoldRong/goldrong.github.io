@@ -11,13 +11,21 @@ module.exports = {
             {text: '数据结构', link: '/bar/'},
             {text: 'POS金融工具', link: 'http://114.67.236.168/#/BitmapViewer'},
             {
-                text: '优秀博客',
+                text: 'Android',
+                items: [
+                    {text: 'Carson_Ho', link: 'https://www.jianshu.com/u/383970bef0a0'},
+                    {text: 'gityuan', link: 'http://gityuan.com/android/'}
+                ]
+            },
+            {
+                text: 'Java',
                 items: [
                     {text: 'Spring', link: 'https://topsale.gitbooks.io/java-cloud-dubbo/content/'},
                     {text: '纯洁的微笑', link: 'http://www.mooooc.com/'},
                     {text: 'DocsHome', link: 'https://github.com/DocsHome'},
                     {text: '后端架构师技术图谱', link: 'https://github.com/xingshaocheng/architect-awesome'},
-                    {text: 'ganecheng', link: 'http://www.ganecheng.tech/'}
+                    {text: 'ganecheng', link: 'http://www.ganecheng.tech/'},
+                    {text: 'Java3y', link: 'https://www.jianshu.com/u/c4503bc2c490'}
                 ]
             },
             {
