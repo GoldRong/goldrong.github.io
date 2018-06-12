@@ -21,7 +21,7 @@ module.exports = {
                 text: 'Java',
                 items: [
                     {text: 'Spring', link: 'https://topsale.gitbooks.io/java-cloud-dubbo/content/'},
-                    {text: '纯洁的微笑', link: 'http://www.mooooc.com/'},
+                    {text: '纯洁的微笑', link: 'http://www.ityouknow.com/'},
                     {text: 'DocsHome', link: 'https://github.com/DocsHome'},
                     {text: '后端架构师技术图谱', link: 'https://github.com/xingshaocheng/architect-awesome'},
                     {text: 'ganecheng', link: 'http://www.ganecheng.tech/'},
