@@ -1,5 +1,5 @@
 module.exports = {
-    title: 'Lab',
+    title: '编程知识整理',
     description: '把代码写复杂很容易，把代码写简单很难，这里讲的是如何编写简单易读的代码',
     dest: './dist',    // 设置输出目录
     base: '/', // 设置站点根路径
@@ -29,7 +29,7 @@ module.exports = {
                 ]
             },
             {
-                text: '微服务',
+                text: 'JAVA后台',
                 items: [
                     {
                         text: '千锋Java微服务',
@@ -40,14 +40,16 @@ module.exports = {
                     {text: 'DocsHome', link: 'https://github.com/DocsHome'},
                     {text: '后端架构师图谱', link: 'https://github.com/xingshaocheng/architect-awesome'},
                     {text: 'ganecheng', link: 'http://www.ganecheng.tech/'},
-                    {text: 'Java3y', link: 'https://www.jianshu.com/u/c4503bc2c490'}
+                    {text: 'Java3y', link: 'https://www.jianshu.com/u/c4503bc2c490'},
+                    {text: '青木', link: 'https://qingmu.io/'}
                 ]
             },
             {
-                text: '兴业银行密钥',
+                text: '密钥管理',
                 items: [
-                    {text: '密钥管理', link: 'http://58.247.43.50:50909'},
-                    {text: '密钥上送', link: 'http://mtms.cib.cibfintech.com/mtms/'}
+                    {text: '盛付通扫码参数管理', link: 'http://58.247.43.50:9999'},
+                    {text: '兴业数金密钥管理', link: 'http://58.247.43.50:50909'},
+                    {text: '兴业数金密钥上送', link: 'http://mtms.cib.cibfintech.com/mtms/'}
                 ]
             }
         ],
