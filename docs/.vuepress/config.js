@@ -14,10 +14,7 @@ module.exports = {
                 items: [
                     {text: '算法', link: 'http://www.cnblogs.com/chengxiao/category/880910.html'},
                     {text: '张晓康', link: 'https://zhuanlan.zhihu.com/p/37289934'},
-                    {
-                        text: '赵海英',
-                        link: 'https://www.bilibili.com/video/av18777526/?from=search&seid=12584358532423887040'
-                    },
+                    {text: '赵海英',link: 'https://www.bilibili.com/video/av18777526/?from=search&seid=12584358532423887040'},
                     {text: '机器学习算法', link: 'https://feisky.xyz/machine-learning/'}
                 ]
             },
@@ -32,10 +29,7 @@ module.exports = {
             {
                 text: 'JAVA后台',
                 items: [
-                    {
-                        text: '千锋Java微服务',
-                        link: 'https://www.bilibili.com/video/av21634197?from=search&seid=11680738431147186091'
-                    },
+                    {text: 'oKong', link: 'https://blog.lqdev.cn/categories/springboot/page/3/'},
                     {text: 'Spring', link: 'https://topsale.gitbooks.io/java-cloud-dubbo/content/'},
                     {text: '纯洁的微笑', link: 'http://www.ityouknow.com/'},
                     {text: 'DocsHome', link: 'https://github.com/DocsHome'},
@@ -47,6 +41,7 @@ module.exports = {
             {
                 text: '密钥管理',
                 items: [
+                    {text: '电子签购单管理系统', link: 'http://58.247.43.50:9991'},
                     {text: '盛付通扫码参数管理', link: 'http://58.247.43.50:9999'},
                     {text: '兴业数金密钥管理', link: 'http://58.247.43.50:50909'},
                     {text: '兴业数金密钥上送', link: 'http://mtms.cib.cibfintech.com/mtms/'}
