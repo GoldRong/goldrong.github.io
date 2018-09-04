@@ -1,5 +1,5 @@
 module.exports = {
-    title: 'XLab',
+    title: 'Spring',
     description: '把代码写复杂很容易，把代码写简单很难，这里讲的是如何编写简单易读的代码',
     dest: './dist',    // 设置输出目录
     base: '/', // 设置站点根路径
@@ -7,7 +7,6 @@ module.exports = {
         repo: 'https://github.com/xurong/xurong.github.io',
         nav: [
             {text: '首页', link: '/'},
-            {text: '数据结构', link: '/bar/'},
             {text: 'POS金融工具', link: 'http://114.67.236.168/#/BitmapViewer'},
             {
                 text: '数据结构和算法',
@@ -27,15 +26,15 @@ module.exports = {
                 ]
             },
             {
-                text: 'JAVA后台',
+                text: 'JAVA',
                 items: [
-                    {text: 'oKong', link: 'https://blog.lqdev.cn/categories/springboot/page/3/'},
-                    {text: 'Spring', link: 'https://topsale.gitbooks.io/java-cloud-dubbo/content/'},
-                    {text: '纯洁的微笑', link: 'http://www.ityouknow.com/'},
-                    {text: 'DocsHome', link: 'https://github.com/DocsHome'},
+                    {text: '尚硅谷_SpringCloud（全）', link: 'https://www.bilibili.com/video/av22613028'},
+                    {text: '尚硅谷SpringBoot全集', link: 'https://www.bilibili.com/video/av23478787'},
+                    {text: '史上最全设计模式导学', link: 'https://blog.csdn.net/lovelion/article/details/17517213?hmsr=toutiao.io&utm_medium=toutiao.io&utm_source=toutiao.io'},
+                    {text: 'Java3y', link: 'https://www.jianshu.com/u/c4503bc2c490'},
+                    {text: '纯洁的微笑', link: 'http://www.ityouknow.com/archives.html'},
                     {text: '后端架构师图谱', link: 'https://github.com/xingshaocheng/architect-awesome'},
-                    {text: 'ganecheng', link: 'http://www.ganecheng.tech/'},
-                    {text: 'Java3y', link: 'https://www.jianshu.com/u/c4503bc2c490'}
+                    {text: 'ganecheng', link: 'http://www.ganecheng.tech/'}
                 ]
             },
             {
