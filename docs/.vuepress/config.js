@@ -1,5 +1,5 @@
 module.exports = {
-    title: 'Spring',
+    title: 'MySpring',
     description: '把代码写复杂很容易，把代码写简单很难，这里讲的是如何编写简单易读的代码',
     dest: './dist',    // 设置输出目录
     base: '/', // 设置站点根路径
