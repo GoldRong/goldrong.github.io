@@ -6,8 +6,14 @@ module.exports = {
     themeConfig: {
         repo: 'https://github.com/xurong/xurong.github.io',
         nav: [
-            {text: '首页', link: '/'},
-            {text: 'POS金融工具', link: 'http://114.67.236.168/#/BitmapViewer'},
+            {
+                text: '先知',
+                items: [
+                    {text: 'POS金融工具', link: 'http://114.67.236.168/#/BitmapViewer'},
+                    {text: 'teambition', link: 'https://www.teambition.com/organization/55263514a7d66b384f02e9a1'},
+                    {text: 'rap2', link: 'http://rap2.taobao.org/repository'}
+                ]
+            },
 
             {
                 text: 'Android',
@@ -20,7 +26,6 @@ module.exports = {
             {
                 text: '数据结构和算法',
                 items: [
-
                     {text: 'JCSprout', link: 'https://github.com/crossoverJie/JCSprout'},
                     {text: '后端架构师图谱', link: 'https://github.com/xingshaocheng/architect-awesome'},
                     {text: '二叉搜索树', link: 'http://www.ganecheng.tech/'},
