@@ -22,7 +22,6 @@ module.exports = {
             {
                 text: '数据结构和算法',
                 items: [
-                    {text: 'JCSprout', link: 'https://github.com/crossoverJie/JCSprout'},
                     {text: 'JavaGuide', link: 'https://github.com/Snailclimb/JavaGuide'},
                     {text: '后端架构师图谱', link: 'https://github.com/xingshaocheng/architect-awesome'},
                     {text: '算法', link: 'http://www.cnblogs.com/chengxiao/category/880910.html'},
