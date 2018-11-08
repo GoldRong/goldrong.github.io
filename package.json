@@ -23,6 +23,6 @@
   },
   "homepage": "https://github.com/xurong/xurong.github.io#readme",
   "devDependencies": {
-    "vuepress": "^0.14.2"
+    "vuepress": "1.0.0-alpha.19"
   }
 }

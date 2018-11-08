@@ -12,21 +12,14 @@ module.exports = {
             {text: 'rap2', link: 'http://rap2.taobao.org/repository'},
 
             {
-                text: 'Android',
-                items: [
-                    {text: 'gityuan', link: 'http://gityuan.com/android/'},
-                    {text: 'Carson_Ho', link: 'https://www.jianshu.com/u/383970bef0a0'},
-                    {text: '安卓自定义View教程目录', link: 'http://www.gcssloop.com/customview/CustomViewIndex/'}
-                ]
-            },
-            {
                 text: '数据结构和算法',
                 items: [
                     {text: 'JavaGuide', link: 'https://github.com/Snailclimb/JavaGuide'},
+                    {text: 'CS-Notes', link: 'https://github.com/CyC2018/CS-Notes'},
                     {text: '后端架构师图谱', link: 'https://github.com/xingshaocheng/architect-awesome'},
                     {text: '算法', link: 'http://www.cnblogs.com/chengxiao/category/880910.html'},
                     {
-                        text: '史上最全设计模式导学',
+                        text: '设计模式导学',
                         link: 'https://blog.csdn.net/lovelion/article/details/17517213?hmsr=toutiao.io&utm_medium=toutiao.io&utm_source=toutiao.io'
                     }
                 ]
@@ -38,6 +31,14 @@ module.exports = {
                     {text: '尚硅谷SpringBoot全集', link: 'https://www.bilibili.com/video/av23478787'},
                     {text: 'Java3y', link: 'https://www.jianshu.com/u/c4503bc2c490'},
                     {text: '纯洁的微笑', link: 'http://www.ityouknow.com/archives.html'}
+                ]
+            },
+            {
+                text: 'Android',
+                items: [
+                    {text: 'gityuan', link: 'http://gityuan.com/android/'},
+                    {text: 'Carson_Ho', link: 'https://www.jianshu.com/u/383970bef0a0'},
+                    {text: '安卓自定义View教程目录', link: 'http://www.gcssloop.com/customview/CustomViewIndex/'}
                 ]
             },
             {
