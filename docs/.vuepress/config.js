@@ -1,5 +1,5 @@
 module.exports = {
-    title: 'MySpring',
+    title: 'BigShot',
     description: '把代码写复杂很容易，把代码写简单很难，这里讲的是如何编写简单易读的代码',
     dest: './dist',    // 设置输出目录
     base: '/', // 设置站点根路径
@@ -28,17 +28,8 @@ module.exports = {
                 text: 'JAVA',
                 items: [
                     {text: '尚硅谷_SpringCloud（全）', link: 'https://www.bilibili.com/video/av22613028'},
-                    {text: '尚硅谷SpringBoot全集', link: 'https://www.bilibili.com/video/av23478787'},
                     {text: 'Java3y', link: 'https://www.jianshu.com/u/c4503bc2c490'},
                     {text: '纯洁的微笑', link: 'http://www.ityouknow.com/archives.html'}
-                ]
-            },
-            {
-                text: 'Android',
-                items: [
-                    {text: 'gityuan', link: 'http://gityuan.com/android/'},
-                    {text: 'Carson_Ho', link: 'https://www.jianshu.com/u/383970bef0a0'},
-                    {text: '安卓自定义View教程目录', link: 'http://www.gcssloop.com/customview/CustomViewIndex/'}
                 ]
             },
             {
