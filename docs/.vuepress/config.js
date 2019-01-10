@@ -10,7 +10,15 @@ module.exports = {
             {text: 'POS金融工具', link: 'http://114.67.236.168/#/BitmapViewer'},
             {text: 'teambition', link: 'https://www.teambition.com/organization/55263514a7d66b384f02e9a1'},
             {text: 'rap2', link: 'http://rap2.taobao.org/repository'},
-
+            {
+                text: 'JAVA',
+                items: [
+                    {text: '慕课网', link: 'https://www.imooc.com/'},
+                    {text: '尚硅谷_SpringCloud（全）', link: 'https://www.bilibili.com/video/av22613028'},
+                    {text: 'Java3y', link: 'https://www.jianshu.com/u/c4503bc2c490'},
+                    {text: '纯洁的微笑', link: 'http://www.ityouknow.com/archives.html'}
+                ]
+            },
             {
                 text: '数据结构和算法',
                 items: [
@@ -22,14 +30,6 @@ module.exports = {
                         text: '设计模式导学',
                         link: 'https://blog.csdn.net/lovelion/article/details/17517213?hmsr=toutiao.io&utm_medium=toutiao.io&utm_source=toutiao.io'
                     }
-                ]
-            },
-            {
-                text: 'JAVA',
-                items: [
-                    {text: '尚硅谷_SpringCloud（全）', link: 'https://www.bilibili.com/video/av22613028'},
-                    {text: 'Java3y', link: 'https://www.jianshu.com/u/c4503bc2c490'},
-                    {text: '纯洁的微笑', link: 'http://www.ityouknow.com/archives.html'}
                 ]
             },
             {
