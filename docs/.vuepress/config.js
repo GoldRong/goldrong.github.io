@@ -16,7 +16,8 @@ module.exports = {
                     {text: '慕课网', link: 'https://www.imooc.com/'},
                     {text: '尚硅谷_SpringCloud（全）', link: 'https://www.bilibili.com/video/av22613028'},
                     {text: 'Java3y', link: 'https://www.jianshu.com/u/c4503bc2c490'},
-                    {text: '纯洁的微笑', link: 'http://www.ityouknow.com/archives.html'}
+                    {text: '纯洁的微笑', link: 'http://www.ityouknow.com/archives.html'},
+                    {text: '兰亭风雨', link: 'https://blog.csdn.net/ns_code/article/details/17565503'}
                 ]
             },
             {
