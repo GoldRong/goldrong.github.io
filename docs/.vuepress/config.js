@@ -37,6 +37,7 @@ module.exports = {
                     {text: '电子签购单管理系统', link: 'http://58.247.43.50:9991'},
                     {text: '盛付通扫码参数管理', link: 'http://58.247.43.50:9999'},
                     {text: '兴业数金密钥管理', link: 'http://58.247.43.50:50909'},
+                    {text: '汇付天下密钥管理', link: 'http://58.247.43.50:9992'},
                     {text: '兴业数金密钥上送', link: 'http://mtms.cib.cibfintech.com/mtms/'}
                 ]
             }
